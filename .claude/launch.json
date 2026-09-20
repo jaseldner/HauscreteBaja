@@ -1,0 +1,6 @@
+﻿{
+  "version": "0.0.1",
+  "configurations": [
+    { "name": "baja", "runtimeExecutable": "C:\\Program Files\\nodejs\\node.exe", "runtimeArgs": ["server.mjs"], "port": 3200 }
+  ]
+}

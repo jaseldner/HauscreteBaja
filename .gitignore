@@ -1,0 +1,45 @@
+# Datos locales (nunca versionar la base ni respaldos con datos reales)
+baja.sqlite
+baja.sqlite-journal
+baja.sqlite-wal
+baja.sqlite-shm
+*.backup.json
+backups/
+
+# Node
+node_modules/
+
+# Sistema
+Thumbs.db
+.DS_Store
+telegram-token.txt
+fly-token.txt
+
+# Cualquier base de datos, venga con el nombre que venga
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.sqlite-journal
+
+# Respaldos locales del código y de la nube (traen datos reales)
+*.bak
+*.bak-*
+*.local-antes-sync.html
+respaldo-*.json
+backup-*.json
+nube*.json
+
+# e.firma, tokens y credenciales
+*.cer
+*.key
+*.pem
+efirma/
+SAT-Hauscrete/
+SAT-Baja/
+config.json
+fly-token.txt
+telegram-token.txt
+.fly/
+
+# Ajustes locales de Claude Code (de esta máquina)
+.claude/settings.local.json
